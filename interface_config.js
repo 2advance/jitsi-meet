@@ -3,7 +3,7 @@
 var interfaceConfig = {
     // TO FIX: this needs to be handled from SASS variables. There are some
     // methods allowing to use variables both in css and js.
-    DEFAULT_BACKGROUND: '#474747',
+    DEFAULT_BACKGROUND: '#E1F5FF',
 
     /**
      * Whether or not the blurred video background for large video should be
@@ -14,8 +14,8 @@ var interfaceConfig = {
     INITIAL_TOOLBAR_TIMEOUT: 20000,
     TOOLBAR_TIMEOUT: 4000,
     TOOLBAR_ALWAYS_VISIBLE: false,
-    DEFAULT_REMOTE_DISPLAY_NAME: 'Vrends',
-    DEFAULT_LOCAL_DISPLAY_NAME: 'Ich',
+    DEFAULT_REMOTE_DISPLAY_NAME: 'VRENDS',
+    DEFAULT_LOCAL_DISPLAY_NAME: 'ICH',
     SHOW_JITSI_WATERMARK: true,
     JITSI_WATERMARK_LINK: 'https://vrends.com',
 
@@ -28,9 +28,9 @@ var interfaceConfig = {
     GENERATE_ROOMNAMES_ON_WELCOME_PAGE: true,
     DISPLAY_WELCOME_PAGE_CONTENT: true,
     DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: false,
-    APP_NAME: 'Vrends',
-    NATIVE_APP_NAME: 'Vrends',
-    PROVIDER_NAME: 'Vrends',
+    APP_NAME: 'VRENDS',
+    NATIVE_APP_NAME: 'VRENDS',
+    PROVIDER_NAME: 'VRENDS',
     LANG_DETECTION: true, // Allow i18n to detect the system language
     INVITATION_POWERED_BY: true,
 
@@ -105,7 +105,7 @@ var interfaceConfig = {
     LOCAL_THUMBNAIL_RATIO: 16 / 9, // 16:9
     REMOTE_THUMBNAIL_RATIO: 1, // 1:1
     // Documentation reference for the live streaming feature.
-    LIVE_STREAMING_HELP_LINK: 'https://vrends.com/live',
+    LIVE_STREAMING_HELP_LINK: 'https://vrends.com',
 
     /**
      * Whether the mobile app Jitsi Meet is to be promoted to participants
@@ -128,7 +128,7 @@ var interfaceConfig = {
      * If indicated some of the error dialogs may point to the support URL for
      * help.
      */
-    SUPPORT_URL: 'https://vrends.com/support',
+    SUPPORT_URL: 'https://vrends.com',
 
     /**
      * Whether the connection indicator icon should hide itself based on
