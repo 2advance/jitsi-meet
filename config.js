@@ -372,7 +372,7 @@ var config = {
 
     analytics: {
         // The Google Analytics Tracking ID:
-        // googleAnalyticsTrackingId: 'your-tracking-id-UA-123456-1'
+        googleAnalyticsTrackingId: 'UA-162768078-1'
 
         // The Amplitude APP Key:
         // amplitudeAPPKey: '<APP_KEY>'
