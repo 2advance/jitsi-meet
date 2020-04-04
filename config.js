@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars, no-var */
 
+alert(123);
 var config = {
     // Connection
     //
