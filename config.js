@@ -24,12 +24,11 @@ var config = {
         // focus: 'focus.jitsi-meet.example.com',
 
         // XMPP MUC domain. FIXME: use XEP-0030 to discover it.
-        muc: 'conference.meet.vrends.com'
+        muc: 'conference.jitsi-meet.example.com'
     },
 
     // BOSH URL. FIXME: use XEP-0156 to discover it.
-    //bosh: '//jitsi-meet.example.com/http-bind',
-    bosh: '//meet.vrends.com/http-bind',
+    bosh: '//jitsi-meet.example.com/http-bind',
 
     // Websocket URL
     // websocket: 'wss://jitsi-meet.example.com/xmpp-websocket',
@@ -373,16 +372,16 @@ var config = {
 
     analytics: {
         // The Google Analytics Tracking ID:
-        googleAnalyticsTrackingId: 'UA-162768078-1'
+        googleAnalyticsTrackingId: 'UA-162768078-1',
 
         // The Amplitude APP Key:
         // amplitudeAPPKey: '<APP_KEY>'
 
         // Array of script URLs to load as lib-jitsi-meet "analytics handlers".
-        // scriptURLs: [
-        //      "libs/analytics-ga.min.js", // google-analytics
+        scriptURLs: [
+              "libs/analytics-ga.min.js" // google-analytics
         //      "https://example.com/my-custom-analytics.js"
-        // ],
+        ],
     },
 
     // Information about the jitsi-meet instance we are connecting to, including
