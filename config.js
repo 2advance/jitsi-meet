@@ -28,8 +28,8 @@ var config = {
     },
 
     // BOSH URL. FIXME: use XEP-0156 to discover it.
-    bosh: '//meet.vrends.com/http-bind',
-    //bosh: '//<!--#echo var=“SERVER_NAME” -->/http-bind',
+    //bosh: '//meet.vrends.com/http-bind',
+    bosh: '//<!--#echo var="http_host" -->/http-bind',
 
 
     // Websocket URL
