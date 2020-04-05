@@ -31,6 +31,7 @@ var config = {
     //bosh: '//meet.vrends.com/http-bind',
     bosh: '//<!--# echo var="http_host" -->/<!--# echo var="subdir" default="" -->http-bind',
 
+
     // Websocket URL
     // websocket: 'wss://jitsi-meet.example.com/xmpp-websocket',
 
