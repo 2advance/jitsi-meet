@@ -31,7 +31,7 @@ var interfaceConfig = {
     APP_NAME: 'VRENDS',
     NATIVE_APP_NAME: 'Jitsi Meet',
     PROVIDER_NAME: 'VRENDS',
-    LANG_DETECTION: false, // Allow i18n to detect the system language
+    LANG_DETECTION: true, // Allow i18n to detect the system language
     INVITATION_POWERED_BY: true,
 
     /**
