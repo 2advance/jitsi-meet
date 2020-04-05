@@ -1,2 +1,5 @@
+
+########### WAISCH ###########
+
 RewriteCond %{HTTP_HOST} ^waisch\.vrends\.com?(.*) [NC]
 RewriteRule ^images/(.*) /waisch_images/$1 [L]
