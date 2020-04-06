@@ -3,7 +3,7 @@
 var interfaceConfig = {
     // TO FIX: this needs to be handled from SASS variables. There are some
     // methods allowing to use variables both in css and js.
-    DEFAULT_BACKGROUND: '#3c3c3c',
+    DEFAULT_BACKGROUND: '#000000',
 
     /**
      * Whether or not the blurred video background for large video should be
@@ -14,10 +14,10 @@ var interfaceConfig = {
     INITIAL_TOOLBAR_TIMEOUT: 20000,
     TOOLBAR_TIMEOUT: 4000,
     TOOLBAR_ALWAYS_VISIBLE: false,
-    DEFAULT_REMOTE_DISPLAY_NAME: 'WAISCH',
+    DEFAULT_REMOTE_DISPLAY_NAME: 'KARIEM',
     DEFAULT_LOCAL_DISPLAY_NAME: 'ICH',
     SHOW_JITSI_WATERMARK: true,
-    JITSI_WATERMARK_LINK: 'https://waisch.ch',
+    JITSI_WATERMARK_LINK: 'https://kariem.ch',
 
     // if watermark is disabled by default, it can be shown only for guests
     SHOW_WATERMARK_FOR_GUESTS: true,
@@ -28,9 +28,9 @@ var interfaceConfig = {
     GENERATE_ROOMNAMES_ON_WELCOME_PAGE: true,
     DISPLAY_WELCOME_PAGE_CONTENT: true,
     DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: false,
-    APP_NAME: 'WAISCH',
+    APP_NAME: 'KARIEM',
     NATIVE_APP_NAME: 'Jitsi Meet',
-    PROVIDER_NAME: 'WAISCH',
+    PROVIDER_NAME: 'KARIEM',
     LANG_DETECTION: true, // Allow i18n to detect the system language
     INVITATION_POWERED_BY: true,
 
@@ -105,7 +105,7 @@ var interfaceConfig = {
     LOCAL_THUMBNAIL_RATIO: 16 / 9, // 16:9
     REMOTE_THUMBNAIL_RATIO: 1, // 1:1
     // Documentation reference for the live streaming feature.
-    LIVE_STREAMING_HELP_LINK: 'https://waisch.ch',
+    LIVE_STREAMING_HELP_LINK: 'https://kariem.ch',
 
     /**
      * Whether the mobile app Jitsi Meet is to be promoted to participants
@@ -128,7 +128,7 @@ var interfaceConfig = {
      * If indicated some of the error dialogs may point to the support URL for
      * help.
      */
-    SUPPORT_URL: 'https://waisch.ch',
+    SUPPORT_URL: 'https://kariem.ch',
 
     /**
      * Whether the connection indicator icon should hide itself based on

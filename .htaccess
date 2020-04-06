@@ -2,6 +2,28 @@
 ########### WAISCH ###########
 
 RewriteCond %{HTTP_HOST} ^waisch\.vrends\.com?(.*) [NC]
+RewriteRule .? - [S=1]
+RewriteRule .? - [S=3]
 RewriteRule ^images/(.*) /clients/waisch/images/$1 [L]
 RewriteRule ^config.js /clients/waisch/config.js [L]
 RewriteRule ^interface_config.js /clients/waisch/interface_config.js [L]
+
+
+########### NUUN ###########
+
+RewriteCond %{HTTP_HOST} ^nuun\.vrends\.com?(.*) [NC]
+RewriteRule .? - [S=1]
+RewriteRule .? - [S=3]
+RewriteRule ^images/(.*) /clients/nuun/images/$1 [L]
+RewriteRule ^config.js /clients/nuun/config.js [L]
+RewriteRule ^interface_config.js /clients/nuun/interface_config.js [L]
+
+
+########### KARIEM ###########
+
+RewriteCond %{HTTP_HOST} ^kariem\.vrends\.com?(.*) [NC]
+RewriteRule .? - [S=1]
+RewriteRule .? - [S=3]
+RewriteRule ^images/(.*) /clients/kariem/images/$1 [L]
+RewriteRule ^config.js /clients/kariem/config.js [L]
+RewriteRule ^interface_config.js /clients/kariem/interface_config.js [L]
