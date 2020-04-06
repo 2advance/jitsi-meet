@@ -2,4 +2,6 @@
 ########### WAISCH ###########
 
 RewriteCond %{HTTP_HOST} ^waisch\.vrends\.com?(.*) [NC]
-RewriteRule ^images/(.*) /waisch_images/$1 [L]
+RewriteRule ^images/(.*) /clients/waisch/images/$1 [L]
+RewriteRule ^config.js /clients/waisch/config.js [L]
+RewriteRule ^interface_config.js /clients/waisch/interface_config.js [L]
